@@ -121,6 +121,8 @@ margin-bottom: 0;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    transition: color var(--transition-duration) var(--transition-timing-function),
+    background-color var(--transition-duration) var(--transition-timing-function);
 }
 
 .site-nav-link:hover,
@@ -148,6 +150,7 @@ margin-bottom: 0;
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
+    
 
 }
 
@@ -161,6 +164,8 @@ margin-bottom: 0;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    transition: color var(--transition-duration) var(--transition-timing-function),
+    background-color var(--transition-duration) var(--transition-timing-function);
 }
 
 .header-contact-link:hover,
@@ -424,6 +429,8 @@ margin-bottom: 0;
     height: 100%;
     border-radius: 50%;
     color: var(--social-color);
+    transition: color var(--transition-duration) var(--transition-timing-function),
+    background-color var(--transition-duration) var(--transition-timing-function);
 }
 
 .team-social-link:hover,
@@ -475,6 +482,8 @@ margin-bottom: 0;
     color: var(--social-color);
     border: 1px solid var(--social-color);
     border-radius: 4px;
+    transition: color var(--transition-duration) var(--transition-timing-function),
+    background-color var(--transition-duration) var(--transition-timing-function);
 }
 
 
@@ -531,9 +540,13 @@ margin-bottom: 0;
 
 .footer-contact-map {
     color: var(--second-color);
+    transition: color var(--transition-duration) var(--transition-timing-function),
+    background-color var(--transition-duration) var(--transition-timing-function);
 }
 .footer-contact {
     color: var(--second-color2);
+    transition: color var(--transition-duration) var(--transition-timing-function),
+    background-color var(--transition-duration) var(--transition-timing-function);
 }
 
 /* Invintation */
@@ -567,6 +580,9 @@ margin-bottom: 0;
     color: var(--title-inverse-color);
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
+    transition: color var(--transition-duration) var(--transition-timing-function),
+    background-color var(--transition-duration) var(--transition-timing-function);
+
 }
 
 .footer-invintation-item-icon {
@@ -633,6 +649,10 @@ margin-bottom: 0;
     background-color: var(--second-background-color2);
     /* Box model */
     padding: 6px 22px;
+    transition: color var(--transition-duration) var(--transition-timing-function),
+    background-color var(--transition-duration) var(--transition-timing-function),
+    box-shadow var(--transition-duration) var(--transition-timing-function);
+
     
 }
 
@@ -645,6 +665,7 @@ margin-bottom: 0;
 
 .examples-item-link {
     display: block;
+    transition: box-shadow var(--transition-duration) var(--transition-timing-function);
 }
 
 .examples-item-link:hover,
